@@ -38,9 +38,13 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 
 fun test(message:String?){
+    // 11
     print(message)
 }
 
+fun test1(){
+
+}
 
 @Preview(showBackground = true)
 @Composable
